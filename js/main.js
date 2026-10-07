@@ -5,8 +5,8 @@ ctx.imageSmoothingEnabled = false;
 
 Input.init();
 
-const player = new Fighter('ti', 300, 1);
-const dummy = new Fighter('thayba', 660, -1);
+const player = new Fighter('anhlong', 300, 1);
+const dummy = new Fighter('ninjalead', 660, -1);
 
 let last = performance.now();
 let fps = 60;
