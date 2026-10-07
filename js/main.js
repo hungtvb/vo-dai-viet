@@ -19,6 +19,7 @@ function loop(now) {
 
   player.update(Input, dummy);
   dummy.stateTime++;
+  dummy.animTime++;
 
   // render
   ctx.fillStyle = '#1a1a2e';
