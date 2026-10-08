@@ -28,7 +28,7 @@ class Fighter {
       const img = new Image();
       img.onload = () => { if (++loaded === total) done(); };
       img.onerror = () => { if (++loaded === total) done(); };
-      img.src = 'assets/sprites/' + f;
+      img.src = 'assets/sprites/' + f + '?v=3';
       this.sprites[f] = img;
     });
     if (total === 0) done();
